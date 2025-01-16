@@ -23,6 +23,7 @@ export default function PostForm({ post }) {
     });
 
     const navigate = useNavigate();
+    // const userData = useSelector((state) => state.auth.userData);
     const userData = useSelector((state) => state.auth.userData);
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [preview, setPreview] = useState(null);
